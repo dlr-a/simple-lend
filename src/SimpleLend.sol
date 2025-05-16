@@ -16,10 +16,6 @@ import {Test, console} from "forge-std/Test.sol";
  * @notice This contract implements a basic lending protocol.
  */
 
-//to dos
-//natspecler
-//readme
-
 contract SimpleLend is Ownable {
     error SimpleLend__SupplyFailed(address user, address token, uint256 amount);
     error SimpleLend__WithdrawFailed(
